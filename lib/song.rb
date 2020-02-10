@@ -82,9 +82,3 @@ class Song
          return @@all
    end
 end
-# song = Song.new_from_filename("Taylor Swift - Blank Space.mp3")
-# Song.create_from_filename("Thundercat - For Love I Come.mp3")
-song_1 = Song.create_by_name("Thriller")
-      song_2 = Song.create_by_name("Blank Space")
-      song_3 = Song.create_by_name("Call Me Maybe")
-Song.alphabetical
